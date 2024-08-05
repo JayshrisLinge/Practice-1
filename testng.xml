@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All Test Suite">
+    <listeners>
+        <listener class-name="TestData.TestNGListener"></listener>
+    </listeners>
+    <test thread-count="5" name="login different web Application">
+        <classes>
+            <class name="ReportCreation.CreateReportExample">
+                <methods>
+                    <include name="testMethod"/>
+                    <include name="flipKartLogin"/>
+                    <include name="chatGPTLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
