@@ -37,6 +37,10 @@ public class CreateReportExample extends WebDrivers {
         System.out.println(driver.getTitle());
         //extentReports.fail("I want to fail the Test case 1"); if want to fail
     }
+    @Test
+    public void gitHubPractice(){
+        System.out.println("This method is created to check GitHub changes");
+    }
 
 
 //    @Test
