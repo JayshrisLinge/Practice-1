@@ -41,6 +41,10 @@ public class CreateReportExample extends WebDrivers {
     public void gitHubPractice(){
         System.out.println("This method is created to check GitHub changes");
     }
+    @Test
+    public void gitHubPractice1(){
+        System.out.println("This method is created to check GitHub changes");
+    }
 
 
 //    @Test
